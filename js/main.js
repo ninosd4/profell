@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
     const typedHome = new Typed('#home-typed', {
             strings: ['web Developer', 'Freelancer','Designer'],
             typeSpeed:80,
@@ -71,7 +71,6 @@ window.onscroll = function(){
 btn.addEventListener('click', function(){
   window.scrollTo({top:0, behavior: "smooth"});
 })
-=======
     const typedHome = new Typed('#home-typed', {
             strings: ['web Developer', 'Freelancer','Designer'],
             typeSpeed:80,
@@ -130,4 +129,4 @@ menu.addEventListener('click', () => {
     icon.classList.add('fa-list');
   }
 });
->>>>>>> a3dd4a15a6d79e0d559b119acf95592f008afef1
+

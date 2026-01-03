@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stalemate&family=Story+Script&family=Unbounded:wght@200..900&display=swap');
 body{
     font-family: "Story Script", sans-serif;
@@ -600,7 +600,6 @@ nav ul a:hover::after{
     flex-direction: column;
   }
 }
-=======
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stalemate&family=Story+Script&family=Unbounded:wght@200..900&display=swap');
 body{
     font-family: "Story Script", sans-serif;
@@ -1192,4 +1191,3 @@ nav ul a:hover::after{
     flex-direction: column;
   }
 }
->>>>>>> a3dd4a15a6d79e0d559b119acf95592f008afef1
