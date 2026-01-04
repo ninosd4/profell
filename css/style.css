@@ -500,6 +500,7 @@ nav ul a:hover::after{
   position: fixed;
   bottom: 20%;
   left: 90%;
+  z-index: 999;
 }
 
 
