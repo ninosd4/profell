@@ -12,6 +12,11 @@ html{
     overflow: hidden;
     position: relative;
 }
+
+*{
+  box-sizing: border-box;
+}
+
 :root{
     --prymary-color : hsl(15, 80%, 64%);
     --white-color: hsl(180, 80%, 48%);
@@ -361,6 +366,7 @@ nav ul a:hover::after{
 .contact-content{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   gap: 30px;
 }
 
@@ -373,7 +379,9 @@ nav ul a:hover::after{
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: white;
 }
+
 
 .contact-form input, 
 .contact-form textarea{
@@ -382,6 +390,7 @@ nav ul a:hover::after{
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .contact-form button{
