@@ -1,13 +1,12 @@
-const typedHome = new Typed('#home-typed', {
-        strings: ['web Developer', 'Freelancer','Designer'],
-        typeSpeed:80,
-        backSpeed:40,
-        backDelay:2000,
-        loop:true,
-        cursorChar: '_',
-    })
+const typedHome = new Typed("#home-typed", {
+  strings: ["web Developer", "Freelancer", "Designer"],
+  typeSpeed: 80,
+  backSpeed: 40,
+  backDelay: 2000,
+  loop: true,
+  cursorChar: "_",
+});
 
-    
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
@@ -40,32 +39,32 @@ ScrollReveal().reveal(".links__icon a", {
   interval: 500,
 });
 
-let menu = document.getElementById('menu');
-let links = document.querySelector('.nav__links');
-let icon = document.querySelector('#menu i');
-let btn = document.getElementById('btn_sc')
+let menu = document.getElementById("menu");
+let links = document.querySelector(".nav__links");
+let icon = document.querySelector("#menu i");
+let btn = document.getElementById("btn_sc");
 
-menu.addEventListener('click', () => {
-  links.classList.toggle('active');
+menu.addEventListener("click", () => {
+  links.classList.toggle("active");
 
   // تبديل الأيقونة
-  if (links.classList.contains('active')) {
-    icon.classList.remove('fa-list');
-    icon.classList.add('fa-xmark');
+  if (links.classList.contains("active")) {
+    icon.classList.remove("fa-list");
+    icon.classList.add("fa-xmark");
   } else {
-    icon.classList.remove('fa-xmark');
-    icon.classList.add('fa-list');
+    icon.classList.remove("fa-xmark");
+    icon.classList.add("fa-list");
   }
 });
 
-window.onscroll = function(){
-  if(window.scrollY < 500){
-      btn.style.display = "none";
-  }else{
-      btn.style.display = "block";
+window.onscroll = function () {
+  if (window.scrollY < 500) {
+    btn.style.display = "none";
+  } else {
+    btn.style.display = "block";
   }
-}
+};
 
-btn.addEventListener('click', function(){
-  window.scrollTo({top:0, behavior: "smooth"});
-})
+btn.addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
