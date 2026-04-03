@@ -310,6 +310,7 @@ h1 {
   border: none;
   border-radius: 2rem;
   margin-right: 1.5rem;
+  overflow: hidden;
 }
 .about_im img {
   width: 400px;
